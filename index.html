@@ -6,7 +6,7 @@
     <title>Πακέτο 1: Η ελληνική εκπαιδευτική εμπειρία στον δρόμο της νέας ψηφιακής εποχής</title>
     <style>
         body {font-family: 'Comfortaa', sans-serif; background-color: black; color: #fff; text-align: center; margin: 0; padding: 0;}
-        h1 {background-color: black; color: gold; padding: 20px; font-size: 36px;}
+        h1 {background-color: black; color: gold; padding: 20px; font-size: 25px;}
         .creator, .director {background-color: black; color: gold; padding: 10px; font-size: 18px;}
         .emojis {font-size: 30px; margin-top: 20px;}
         .score-box {position: absolute; top: 20px; right: 20px; font-size: 20px; font-weight: bold;}
@@ -23,6 +23,8 @@
 </head>
 <body>
 <div class="creator">Δημιουργία/Επιμέλεια: Παναγιώτης Δόμβρος (CC BY-NC)</div>
+<div class="director">Εκπαιδευτικός Αγγλικών - Θεατρολόγος</div>
+<div class="director">Επιμορφωτής Τ.Π.Ε</div>
 <div class="director">Διευθυντής 1ου Γυμνασίου Πυλαίας</div>
 <h1>Πακέτο 1: Η ελληνική εκπαιδευτική εμπειρία στον δρόμο της νέας ψηφιακής εποχής</h1>
 <div class="emojis">🏛️ ⚓ 🌊 🏺 🗡️</div>
@@ -59,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {question:'Ποια είναι η βασική προτεραιότητα της “Οδύσσειας”;',answers:['α) Μόνο ανάπτυξη λογισμικού','β) Ολοκληρωμένη εισαγωγή & παιδαγωγική αξιοποίηση ΤΠΕ','γ) Δημιουργία αθλητικών χώρων'],correct:1},
         {question:'Τι δεν περιλαμβάνει η e-class υπηρεσία;',answers:['α) Τηλεκπαίδευση','β) Φιλοξενία podcast','γ) Ηλεκτρονική σχολική τάξη'],correct:1},
         {question:'Ποιο στοιχείο ΔΕΝ αφορά την τυπική χρήση Sch.gr;',answers:['α) Email','β) Web analytics','γ) Αυτόματο μάθημα αυτοματισμού'],correct:2},
-        {question:'Ποια δεξιότητα εντάσσεται ρητά στο Λύκειο ξένων γλωσσών από 2015–17;',answers:['α) Μουσική','β) Ψηφιακός γραμματισμός','γ) Θρησκευτικά'],correct:1},
+        {question:'Ποια δεξιότητα εντάσσεται ρητά στο Λύκειο ξένων γλώσσων από 2015–17;',answers:['α) Μουσική','β) Ψηφιακός γραμματισμός','γ) Θρησκευτικά'],correct:1},
         {question:'Τι είδους λογισμικό ήταν τα «drill and practices»;',answers:['α) Ανοιχτού τύπου','β) Κλειστού τύπου','γ) Δωρεάν λογισμικό ανοικτού κώδικα'],correct:1},
         {question:'Ποιος γλωσσικός δείκτης εμπλουτίστηκε με ψηφιακά κείμενα;',answers:['α) Επίπεδο Α1','β) Επίπεδο γλωσσομάθειας','γ) Φωνητική ικανότητα'],correct:1},
         {question:'Τι απέδειξε η εμπειρία της πανδημίας για εκπαιδευτικούς & μαθητές;',answers:['α) Αδυναμία χρήσης ΤΠΕ','β) Ενίσχυση ψηφιακών δεξιοτήτων & μικτές μορφές μάθησης','γ) Εξάλειψη ανάγκης για τεχνολογία'],correct:1},
@@ -72,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {question:'Τι σημαίνει «ολοκληρωμένο πρότυπο»;',answers:['α) Μόνο αυτόνομο μάθημα ΤΠΕ','β) Οριζόντια διάχυση ψηφιακού γραμματισμού σε όλα τα αντικείμενα','γ) Μόνο εργαστήρια ρομποτικής'],correct:1},
         {question:'Ποια ψηφιακή υπηρεσία του ΠΣΔ αφορά τη συνεργασία εγγράφων;',answers:['α) +γραφίς','β) e-books','γ) Ξένιος'],correct:0},
         {question:'Τι υπογραμμίζει η μετάβαση προς βιωματική μάθηση στα μέσα;',answers:['α) Χρήση πολυτροπικού υλικού μόνο από τον δάσκαλο','β) Δημιουργία «ψηφιακών περιβαλλόντων» μάθησης από μαθητές','γ) Μόνο θεωρητικά κείμενα'],correct:1},
-        {question:'Ποιος είναι ο ρόλος της επιμόρφωσης εκπαιδευτικών;',answers:['α) Προετοιμασία τεχνικών εγκαταστάσεων','β) Καλλιέργεια παιδαγωγικής κουλτούρας ψηφιακής αξιοποίησης','γ) Μόνο οικονομική διαχείριση'],correct:1},
+        {question:'Ποιος είναι ο ρόλος της επιμόρφωσης εκπαιδευτικών;',answers':['α) Προετοιμασία τεχνικών εγκαταστάσεων','β) Καλλιέργεια παιδαγωγικής κουλτούρας ψηφιακής αξιοποίησης','γ) Μόνο οικονομική διαχείριση'],correct:1},
         {question:'Ποια εκ των παρακάτω δεν αποτελεί υπηρεσία πολυμέσων του Sch.gr;',answers:['α) Υπηρεσία video','β) Ζωντανές μεταδόσεις','γ) Αυτόματο σύστημα μετάφρασης'],correct:2},
         {question:'Τι απέδειξε η διεθνής καθυστέρηση (5–10 έτη) στην Ελλάδα;',answers:['α) Ταχύτερη υιοθέτηση καινοτομιών','β) Εξαρτημένη μηχανική υιοθέτηση διεθνών προτύπων','γ) Αυτόνομη τοπική ανάπτυξη'],correct:1},
         {question:'Ποια ενότητα καλύπτει την Τεχνητή Νοημοσύνη;',answers:['α) 1.1','β) 1.4','γ) 1.6'],correct:2},
@@ -90,13 +92,32 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.querySelector('.question-container');
     function showQuestion(i) {
         container.innerHTML = '';
-        const q=questions[i];
-        const e=document.createElement('div');e.className='emoji';e.textContent=odysseyEmojis[i%5];
-        const d=document.createElement('div');d.className='question';d.innerHTML=`<span class="question-number">Ερώτηση ${i+1}:</span> ${q.question}`;
-        d.prepend(e);container.appendChild(d);
-        q.answers.forEach((a,j)=>{const b=document.createElement('button');b.className='answer';b.textContent=a;b.onclick=()=>check(j,q.correct);container.appendChild(b)});
+        const q = questions[i];
+        const emojiDiv = document.createElement('div'); emojiDiv.className='emoji'; emojiDiv.textContent = odysseyEmojis[i % 5];
+        const qDiv = document.createElement('div'); qDiv.className='question'; qDiv.innerHTML = `<span class="question-number">Ερώτηση ${i+1}:</span> ${q.question}`;
+        qDiv.prepend(emojiDiv); container.appendChild(qDiv);
+        q.answers.forEach((a, j) => {
+            const btn = document.createElement('button'); btn.className='answer'; btn.textContent=a;
+            btn.onclick = () => checkAnswer(j, q.correct);
+            container.appendChild(btn);
+        });
     }
-    function check(s,c){score+=s===c?2:0;document.getElementById('score').textContent=score;document.querySelectorAll('.answer').forEach((b,i)=>{if(i===c)b.classList.add('correct');else if(i===s)b.classList.add('incorrect');b.disabled=true});setTimeout(()=>{currentQuestion++;currentQuestion<questions.length?showQuestion(currentQuestion):container.innerHTML=`<div class="question">Τέλος κουίζ!<div class="final-score">Σκορ: ${score} / ${questions.length*2}</div></div>`},2000)}
+    function checkAnswer(selected, correct) {
+        const audio = selected === correct ? document.getElementById('successAudio') : document.getElementById('failAudio');
+        audio.play();
+        if (selected === correct) score += 2;
+        document.getElementById('score').textContent = score;
+        document.querySelectorAll('.answer').forEach((b, i) => {
+            if (i === correct) b.classList.add('correct');
+            else if (i === selected) b.classList.add('incorrect');
+            b.disabled = true;
+        });
+        setTimeout(() => {
+            currentQuestion++;
+            if (currentQuestion < questions.length) showQuestion(currentQuestion);
+            else container.innerHTML = `<div class="question">Τέλος κουίζ!<div class="final-score">Σκορ: ${score} / ${questions.length * 2}</div></div>`;
+        }, 2000);
+    }
     showQuestion(0);
 });
 </script>
